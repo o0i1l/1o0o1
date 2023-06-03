@@ -1,0 +1,7 @@
+*{margin:0; padding:0; list-style-type:none; text-decoration:none;}
+html{width: 100%; background:url(bg.jpg);font-size: 62.5%;font-family:Arial, Helvetica, MS Pgothic, "Hiragino Kaku Gothic", Osaka, sans-serif;}
+body{background: linear-gradient(to left top,rgba(0,0,0,0.9),rgba(0,0,0,0.1));text-align: center;margin: 1% 1%;}
+.bg{display: inline-block;width: 80%;background-color:rgba(255,255,255,0.8);margin: 2rem auto 0 auto;font-size: 5rem;color: rgba(0,0,0,0.8);}
+img{margin: 5%;width: 30%;}
+p{margin: 2% 1% 5% 1%;}
+.footer{display: inline-block;margin: 2rem auto;width: 80%;color: rgba(255,255,255,0.8);font-size: 2rem;}

@@ -1,0 +1,20 @@
+*{margin:0; padding:0; list-style-type:none; text-decoration:none;}
+html{width: 100%;background:url(bg.jpg);font-size: 62.5%;font-family:Arial, Helvetica, MS Pgothic, "Hiragino Kaku Gothic", Osaka, sans-serif;}
+body{background: linear-gradient(to left top,rgba(0,0,0,0.9),rgba(0,0,0,0.1));text-align: center;margin: 1% 1%;}
+.header{display: inline-block;margin: 2rem auto 0 auto;width: 84rem;}
+.header img{float: left;width: 20rem;}
+.header li{float: left;margin: 1rem 0 0 4rem;font-size:3rem;}
+.header a:link{color: rgba(255,255,255,1);text-shadow: 0.5rem 0.5rem 0.5rem rgba(0,0,0,1); padding-bottom: 0.5rem;}
+.header a:hover{border-bottom: 0.5rem ridge;}
+.header a:visited{color: rgba(255,255,255,1);}
+.bg{display: inline-block;width: 120rem;background-color:rgba(255,255,255,0.8);margin: 2rem auto 0 auto;font-size: 2.5rem;line-height: 3.3rem;color: rgba(0,0,0,0.8);}
+.box{float: left;width: 60rem;height: 60rem;text-align: left;}
+.box img{width: 100%;}
+.box li{margin: 2.5rem 0 0 2.5rem;}
+.box p{margin: 1rem 2.5rem 1rem 2.5rem;}
+.t{font-size:3.5rem;font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";}
+.t2{display: inline-block;width: 120rem;margin: 2rem auto;}
+.form{width: 55rem;margin: 2.5rem;float: left;text-align: left;}
+.f1{display: inline-block;width: 53rem;height: 3rem;padding-left: 0.5rem;margin-bottom: 1rem;font-size:2.5rem;color:rgba(230,0,18,1);}
+.f3{display: inline-block;width:10rem;height: 4rem;font-size:2.5rem;color: rgba(255,255,255,0.9);background-color:rgba(230,0,18,1);}
+.footer{display: inline-block;margin: 2rem auto;width: 120rem;color: rgba(255,255,255,0.8);font-size: 2rem;}
