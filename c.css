@@ -7,7 +7,7 @@ body{background: linear-gradient(to left top,rgba(0,0,0,0.9),rgba(0,0,0,0.1));te
 .header a:link{color: rgba(255,255,255,1);text-shadow: 0.5rem 0.5rem 0.5rem rgba(0,0,0,1); padding-bottom: 0.5rem;}
 .header a:hover{border-bottom: 0.5rem ridge;}
 .header a:visited{color: rgba(255,255,255,1);}
-.bg{display: inline-block;width: 120rem;background-color:rgba(255,255,255,0.8);margin: 2rem auto 0 auto;font-size: 2.5rem;line-height: 3.3rem;color: rgba(0,0,0,0.8);}
+.bg{display: inline-block;width: 120rem;background-color:rgba(255,255,255,0.8);margin: 2rem auto 0 auto;font-size: 2.5rem;line-height: 3.5rem;color: rgba(0,0,0,0.8);}
 .box{float: left;width: 60rem;height: 60rem;text-align: left;}
 .box img{width: 100%;}
 .box li{margin: 2.5rem 0 0 2.5rem;}
