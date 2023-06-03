@@ -1,17 +1,17 @@
 *{margin:0; padding:0; list-style-type:none; text-decoration:none;}
 html{width: 100%;background:url(bg.jpg);font-size: 62.5%;font-family:Arial, Helvetica, MS Pgothic, "Hiragino Kaku Gothic", Osaka, sans-serif;}
 body{background: linear-gradient(to left top,rgba(0,0,0,0.9),rgba(0,0,0,0.1));text-align: center;margin: 1% 1%;}
-.header{display: inline-block;margin: 2rem auto 0 auto;width: 100%;}
-.header img{width: 35%;}
+.header{display: inline-block;margin: 5rem auto;width: 100%;}
+.header img{width: 50%;}
 .header li{display: none;}
-.bg{display: inline-block;width: 100%;background-color:rgba(255,255,255,0.8);margin: 3rem auto 0 auto;font-size: 3rem;color: rgba(0,0,0,0.8);}
-.box{float: left;width: 100%;margin-bottom: 3rem;}
+.bg{display: inline-block;width: 100%;background-color:rgba(255,255,255,0.8);font-size: 3rem;color: rgba(0,0,0,0.8);}
+.box{float: left;width: 100%;}
 .box img{width: 100%;}
 .box li{margin: 3rem 0 0 0;}
-.box p{margin: 1rem 1% 1rem 1%;}
+.box p{margin: 0 1% 2rem 1%;}
 .t{font-size:3.5rem;font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";color:rgba(230,0,18,1);}
 .t2{display: inline-block;width: 100%;margin: 3rem auto;}
-.form{width: 100%;margin: 2.5rem 1%;float: left;}
+.form{width: 100%;margin: 1rem 1%;float: left;}
 .f1{display: inline-block;width: 85%;height: 4rem;padding-left: 0.5rem;margin-bottom: 2rem;font-size:3rem;color:rgba(230,0,18,1);}
 .f3{display: inline-block;width:12rem;height: 6rem;font-size:2.5rem;color: rgba(255,255,255,0.9);background-color:rgba(230,0,18,1);}
-.footer{display: inline-block;margin: 3rem auto;width: 100%;color: rgba(255,255,255,0.8);font-size: 2.5rem;}
+.footer{display: inline-block;margin: 3rem auto;width: 100%;color: rgba(255,255,255,0.8);font-size: 2rem;}
