@@ -18,3 +18,11 @@ body{background: linear-gradient(to left top,rgba(0,0,0,0.9),rgba(0,0,0,0.1));te
 .f1{display: inline-block;width: 53rem;height: 3rem;padding-left: 0.5rem;margin-bottom: 1rem;font-size:2.5rem;color:rgba(230,0,18,1);}
 .f3{display: inline-block;width:10rem;height: 4rem;font-size:2.5rem;color: rgba(255,255,255,0.9);background-color:rgba(230,0,18,1);}
 .footer{display: inline-block;margin: 2rem auto;width: 120rem;color: rgba(255,255,255,0.8);font-size: 2rem;}
+.t3{display: inline-block;margin: 2rem auto;width: 80rem;}
+.t3 span{float: right;font-size: 1.6rem;font-style: italic;color: rgba(255,255,255,0.9);padding:0 1rem; background-color:rgba(230,0,18,1);}
+.t3 li{font-size:3.5rem;font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";margin-top: 5rem;}
+.t3 p{font-size: 2rem;color: rgba(0,0,0,0.4);}
+.text{display: inline-block;width: 82rem;margin: 0 auto 10rem auto;}
+.text p{text-align: left;margin-top: 1rem;}
+.text img{width:100%;}
+.line{border-bottom: 0.1rem solid rgba(0,0,0,0.4);height: 2rem;width: 82rem;}

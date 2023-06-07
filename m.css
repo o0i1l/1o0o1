@@ -13,5 +13,13 @@ body{background: linear-gradient(to left top,rgba(0,0,0,0.9),rgba(0,0,0,0.1));te
 .t2{display: inline-block;width: 100%;margin: 3rem auto;}
 .form{width: 100%;margin: 1rem 1%;float: left;}
 .f1{display: inline-block;width: 92%;height: 4rem;padding-left: 0.5rem;margin-bottom: 2rem;font-size:3rem;color:rgba(230,0,18,1);}
-.f3{display: inline-block;width:20%;min-width: 10rem;height: 6rem;font-size:2.5rem;color: rgba(255,255,255,0.9);background-color:rgba(230,0,18,1);}
+.f3{display: inline-block;width:20%;min-width: 10rem; height: 6rem;font-size:2.5rem;color: rgba(255,255,255,0.9);background-color:rgba(230,0,18,1);}
 .footer{display: inline-block;margin: 3rem auto;width: 100%;color: rgba(255,255,255,0.8);font-size: 2rem;}
+.t3{display: inline-block;margin: 2rem auto;width: 100%;}
+.t3 span{float: right;font-size: 2.2rem;font-style: italic;color: rgba(255,255,255,0.9);padding:1rem; background-color:rgba(230,0,18,1);}
+.t3 li{font-size:2.5rem;font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";margin-top: 6rem;}
+.t3 p{font-size: 1.8rem;color: rgba(0,0,0,0.4);}
+.text{display: inline-block;width: 100%;margin: 0 auto 2rem auto;}
+.text p{text-align: left;margin-top: 1rem;font-size: 2rem;width: 98%;padding: 0 1%;}
+.text img{width:100%;max-width: 750px;}
+.line{border-bottom: 0.1rem solid rgba(0,0,0,0.4);height: 0.5rem;width: 100%;}
