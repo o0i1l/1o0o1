@@ -2,8 +2,10 @@
 html{width: 100%;background:url(bg.jpg);font-size: 62.5%;font-family:Arial, Helvetica, MS Pgothic, "Hiragino Kaku Gothic", Osaka, sans-serif;}
 body{background: linear-gradient(to left top,rgba(0,0,0,0.9),rgba(0,0,0,0.1));text-align: center;margin: 1% 1%;}
 .header{display: inline-block;margin: 5rem auto;width: 100%;}
-.header img{width: 50%;}
-.header li{display: none;}
+.header img{width: 60%; max-width: 500px;}
+.header li{width: 40%; float: left;margin: 5% 0 0 5%;font-size:2rem;border: 0.2rem solid rgba(255,255,255,1);padding:2% 1%;}
+.header a:link{color: rgba(255,255,255,1);text-shadow: 0.5rem 0.5rem 0.5rem rgba(0,0,0,1); padding-bottom: 0.5rem;}
+.header a:visited{color: rgba(255,255,255,1);}
 .bg{display: inline-block;width: 100%;background-color:rgba(255,255,255,0.8);font-size: 3rem;color: rgba(0,0,0,0.8);}
 .box{float: left;width: 100%;}
 .box img{width: 100%;}
@@ -20,6 +22,9 @@ body{background: linear-gradient(to left top,rgba(0,0,0,0.9),rgba(0,0,0,0.1));te
 .t3 li{font-size:2.5rem;font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";margin-top: 6rem;}
 .t3 p{font-size: 1.8rem;color: rgba(0,0,0,0.4);}
 .text{display: inline-block;width: 100%;margin: 0 auto 2rem auto;}
-.text p{text-align: left;margin-top: 1rem;font-size: 2rem;width: 98%;padding: 0 1%;}
+.text p{margin-top: 1rem;font-size: 2rem;width: 98%;padding: 0 1%;}
 .text img{width:100%;max-width: 750px;}
 .line{border-bottom: 0.1rem solid rgba(0,0,0,0.4);height: 0.5rem;width: 100%;}
+.msg{display: inline-block;width: 90%;height: 60rem; background-color:rgba(255,255,255,0.8);margin: 10% auto;}
+.msg img{margin: 10% auto;width: 50%;}
+.msg p{font-size: 3rem;margin: 5% auto;}

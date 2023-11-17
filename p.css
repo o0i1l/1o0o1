@@ -26,3 +26,6 @@ body{background: linear-gradient(to left top,rgba(0,0,0,0.9),rgba(0,0,0,0.1));te
 .text p{text-align: left;margin-top: 1rem;}
 .text img{width:100%;}
 .line{border-bottom: 0.1rem solid rgba(0,0,0,0.4);height: 2rem;width: 82rem;}
+.msg{display: inline-block;width: 90rem;height: 65rem; background-color:rgba(255,255,255,0.8);margin: 3rem auto;}
+.msg img{margin: 6rem auto;width: 30rem;}
+.msg p{font-size: 5rem;margin: 3rem auto;}
