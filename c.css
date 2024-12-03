@@ -1,31 +1,58 @@
 *{margin:0; padding:0; list-style-type:none; text-decoration:none;}
 html{width: 100%;background:url(bg.jpg);font-size: 62.5%;font-family:Arial, Helvetica, MS Pgothic, "Hiragino Kaku Gothic", Osaka, sans-serif;}
-body{background: linear-gradient(to left top,rgba(0,0,0,0.9),rgba(0,0,0,0.1));text-align: center;margin: 1% 1%;}
-.header{display: inline-block;margin: 2rem auto 0 auto;width: 84rem;}
+body{background: linear-gradient(to left top,rgba(0,0,0,0.9),rgba(0,0,0,0.1));text-align: center;}
+.header{display: inline-block;margin: 2rem auto 0 auto;}
 .header img{float: left;width: 20rem;}
 .header li{float: left;margin: 1rem 0 0 4rem;font-size:3rem;}
 .header a:link{color: rgba(255,255,255,1);text-shadow: 0.5rem 0.5rem 0.5rem rgba(0,0,0,1); padding-bottom: 0.5rem;}
-.header a:hover{border-bottom: 0.5rem ridge;}
+.header a:hover{border-bottom: 0.5rem dotted rgba(230,0,18,1);}
 .header a:visited{color: rgba(255,255,255,1);}
 .bg{display: inline-block;width: 120rem;background-color:rgba(255,255,255,0.8);margin: 2rem auto 0 auto;font-size: 2.5rem;line-height: 3.5rem;color: rgba(0,0,0,0.8);}
 .box{float: left;width: 60rem;height: 60rem;text-align: left;}
 .box img{width: 100%;}
 .box li{margin: 2.5rem 0 0 2.5rem;}
 .box p{margin: 1rem 2.5rem 1rem 2.5rem;}
-.t{font-size:3.5rem;font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";}
+.box span{font-size: 2.2rem;font-style: italic;}
+.box a:link{color: brown;border-bottom: 0.2rem dotted brown;}
+.box a:visited{color: brown;}
+.t{font-size:3.5rem;}
 .t2{display: inline-block;width: 120rem;margin: 2rem auto;}
 .form{width: 55rem;margin: 2.5rem;float: left;text-align: left;}
 .f1{display: inline-block;width: 53rem;height: 3rem;padding-left: 0.5rem;margin-bottom: 1rem;font-size:2.5rem;color:rgba(230,0,18,1);}
 .f3{display: inline-block;width:10rem;height: 4rem;font-size:2.5rem;color: rgba(255,255,255,0.9);background-color:rgba(230,0,18,1);}
 .footer{display: inline-block;margin: 2rem auto;width: 120rem;color: rgba(255,255,255,0.8);font-size: 2rem;}
-.t3{display: inline-block;margin: 2rem auto;width: 80rem;}
-.t3 span{float: right;font-size: 1.6rem;font-style: italic;color: rgba(255,255,255,0.9);padding:0 1rem; background-color:rgba(230,0,18,1);}
+.t3{display: inline-block;margin: 2rem auto;width: 100rem;}
+.t3 span{float: right;font-size: 1.8rem;font-style: italic;color: rgba(255,255,255,0.9);padding:0 1rem; background-color:rgba(230,0,18,1);}
 .t3 li{font-size:3.5rem;font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";margin-top: 5rem;}
-.t3 p{font-size: 2rem;color: rgba(0,0,0,0.4);}
-.text{display: inline-block;width: 82rem;margin: 0 auto 10rem auto;}
+.t3 p{font-size: 2.5rem;color: rgba(0,0,0,0.4);}
+.text{display: inline-block;width: 100rem;margin: 0 auto 10rem auto;}
 .text p{text-align: left;margin-top: 1rem;}
-.text img{width:100%;}
-.line{border-bottom: 0.1rem solid rgba(0,0,0,0.4);height: 2rem;width: 82rem;}
-.msg{display: inline-block;width: 120rem;height: 60rem; background-color:rgba(255,255,255,0.8);margin: 5rem auto;}
-.msg img{margin: 6rem auto;width: 30rem;}
-.msg p{font-size: 5rem;margin: 3rem auto;}
+.text li{margin-left: 5rem;float:left;text-align: left;font-size: 2.5rem;border-left:0.3rem solid rgba(0,0,0,0.1);}
+.line{border-bottom: 0.15rem solid rgba(0,0,0,0.4);height: 2rem;width: 100rem;}
+.img{display: inline-block;margin: 2rem auto 0 auto;}
+.img img{width:120rem;border-radius:2.5rem;border: 1.5rem solid rgba(0,0,0,0.8);box-sizing: border-box;}
+.bg2{display: inline-block;width: 120rem;background-color:rgba(255,255,255,0.8);margin: 2rem auto 0 auto;}
+.bg2 li{position: relative;float: left;width: 28rem;height:28rem; margin: 0 0 2rem 1.6rem;font-size:2.5rem;}
+.bg2 li img{width:26rem;margin-top:1rem;border-radius:2rem;}
+.bg2 li img:hover{width:28rem;margin-top:0;border-radius:0;}
+.bg2 li p{position: absolute;width: 28rem;bottom:4rem;color: rgba(255,255,255,0.8);background-color:rgba(0,0,0,0.5);}
+.bg3{display: inline-block;width: 120rem;background:rgba(0,0,0,0.3) url("takosa_logo2.png") no-repeat center;background-size: 20rem; margin: 2rem auto 0 auto;border-top: 0.2rem solid rgba(255,255,255,0.8);}
+.bg3 li{float: left;text-align: left;padding:2.3rem;}
+.bg3 p{font-size: 2rem;color:rgba(255,255,255,0.8);line-height:3rem;}
+.bg3 span{border-left: 1rem solid rgba(230,0,18,1);padding-left: 1rem;}
+.bg3 a:link{color:rgba(255,255,255,0.8);}
+.bg3 a:hover{text-decoration: underline;}
+.bg3 a:visited{color:rgba(255,255,255,0.8);}
+.pd{display: inline-block;width: 120rem;background-color:rgba(255,255,255,0.8);margin: 2rem auto 0 auto;text-align: left;}
+.pd li{float: left;margin: 2.5rem;width: 78rem;border-right: 0.15rem solid rgba(0,0,0,0.1);}
+.pd li p{font-size: 2.5rem;color: rgba(0,0,0,0.8);}
+.pd li span{font-size:3.5rem;}
+.pd li img{margin-top: 1rem;}
+.menu{float: left;width: 28rem;margin:3.5rem 0 3.5rem 2rem;padding: 1.5rem; background-color:rgba(0,0,0,0.8);border-radius:0 2.5rem 2.5rem 0;}
+.menu p{font-size: 2.5rem;color:rgba(255,255,255,1);line-height: 2.8rem;}
+.menu a:link{color:rgba(255,255,255,1);}
+.menu a:hover{text-decoration: underline;}
+.menu a:visited{color:rgba(255,255,255,1);}
+.menu span{border-left: 1.2rem solid rgba(230,0,18,1);padding-left: 1.2rem;}
+.up{position:fixed;bottom: 5rem;left: calc(50vw + 61rem); margin:0 auto;z-index: 999;}
+.up img{width:3.5rem;}

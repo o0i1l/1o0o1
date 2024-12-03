@@ -1,18 +1,18 @@
 *{margin:0; padding:0; list-style-type:none; text-decoration:none;}
 html{width: 100%;background:url(bg.jpg);font-size: 62.5%;font-family:Arial, Helvetica, MS Pgothic, "Hiragino Kaku Gothic", Osaka, sans-serif;}
 body{background: linear-gradient(to left top,rgba(0,0,0,0.9),rgba(0,0,0,0.1));text-align: center;margin: 1% 1%;}
-.header{display: inline-block;margin: 5rem auto;width: 100%;}
+.header{display: inline-block;margin: 2rem auto;width: 100%;float: left;}
 .header img{width: 60%; max-width: 500px;}
 .header li{width: 40%; float: left;margin: 5% 0 0 5%;font-size:2rem;border: 0.2rem solid rgba(255,255,255,1);padding:2% 1%;}
 .header a:link{color: rgba(255,255,255,1);text-shadow: 0.5rem 0.5rem 0.5rem rgba(0,0,0,1); padding-bottom: 0.5rem;}
 .header a:visited{color: rgba(255,255,255,1);}
-.bg{display: inline-block;width: 100%;background-color:rgba(255,255,255,0.8);font-size: 3rem;color: rgba(0,0,0,0.8);}
+.bg{display: inline-block;width: 100%;background-color:rgba(255,255,255,0.8);font-size: 2.5rem;color: rgba(0,0,0,0.8);}
 .box{float: left;width: 100%;}
-.box img{width: 100%;}
-.box li{margin: 3rem 0 0 0;}
-.box p{margin: 0 1% 2rem 1%;}
-.t{font-size:3.5rem;font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";color:rgba(230,0,18,1);}
-.t2{display: inline-block;width: 100%;margin: 3rem auto;}
+.box img{width: 100%; max-width: 600px; margin-top:1rem;}
+.box p{margin: 0 1%;text-align: center;line-height: 3.5rem;}
+.box span{font-size: 2.2rem;font-style: italic;}
+.t{font-size:3rem;color:rgba(230,0,18,1);margin:2rem auto 1rem auto;}
+.t2{display: inline-block;width: 100%;margin: 0 auto;}
 .form{width: 100%;margin: 1rem 1%;float: left;}
 .f1{display: inline-block;width: 92%;height: 4rem;padding-left: 0.5rem;margin-bottom: 2rem;font-size:3rem;color:rgba(230,0,18,1);}
 .f3{display: inline-block;width:20%;min-width: 10rem; height: 6rem;font-size:2.5rem;color: rgba(255,255,255,0.9);background-color:rgba(230,0,18,1);}
@@ -22,9 +22,22 @@ body{background: linear-gradient(to left top,rgba(0,0,0,0.9),rgba(0,0,0,0.1));te
 .t3 li{font-size:2.5rem;font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";margin-top: 6rem;}
 .t3 p{font-size: 1.8rem;color: rgba(0,0,0,0.4);}
 .text{display: inline-block;width: 100%;margin: 0 auto 2rem auto;}
-.text p{margin-top: 1rem;font-size: 2rem;width: 98%;padding: 0 1%;}
+.text p{margin-top: 1rem;font-size: 2.5rem;width: 98%;padding: 0 1%;text-align: justify;line-height: 3.5rem;}
 .text img{width:100%;max-width: 750px;}
+.text li{text-align: center; font-size: 3rem;line-height: 3.5rem;}
 .line{border-bottom: 0.1rem solid rgba(0,0,0,0.4);height: 0.5rem;width: 100%;}
-.msg{display: inline-block;width: 90%;height: 60rem; background-color:rgba(255,255,255,0.8);margin: 10% auto;}
-.msg img{margin: 10% auto;width: 50%;}
-.msg p{font-size: 3rem;margin: 5% auto;}
+.img{display: inline-block;overflow: hidden;float: left;}
+.img img{width: 100%;}
+.bg2{display: inline-block;width: 100%;background-color:rgba(255,255,255,0.8);border:0.2rem solid rgba(0,0,0,0.8);box-sizing: border-box;}
+.bg2 li{position: relative;float: left;width: 85%;margin: 1% auto 0 7.5%;font-size:4rem;}
+.bg2 li img{width:100%;max-width: 600px;}
+.bg2 li p{position: absolute;width: 100%;bottom:20%;color: rgba(255,255,255,0.8);background-color:rgba(0,0,0,0.5);}
+.bg3{display: none;}
+.pd{display: inline-block;width: 100%;background-color:rgba(255,255,255,0.8);text-align: center;}
+.pd li{width: 96%;margin:3% 2%;}
+.pd li p{font-size: 2.3rem;color: rgba(0,0,0,0.8);}
+.pd li span{font-size:3rem;color:rgba(230,0,18,1);}
+.pd li img{margin-top: 0.5rem;width: 100%;max-width: 600px;}
+.menu{display: none;}
+.up{position:fixed;bottom: 2rem;right: 2rem; margin:0 auto;z-index: 999;}
+.up img{width:5rem;}
